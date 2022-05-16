@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="src/img/metalogo.png">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,400italic,500italic,700' rel='stylesheet' type='text/css'>
+    <title>Metaverse</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-default" id="navbar">
+        <div class="container-fluid">
+          <img class="icon" src="src/img/meta-icon.png">
+          <span class="loading">
+            <img id="loader" src="src/img/meta-loading.gif">  
+          </span>
+        </div>
+    </nav>
+ 
+
+    <div class="container" id="page" style="background-color: #fff;">
+        
+    </div>
+
+    
+    <footer style="height:90px;margin-top:-110px;background:#fff;" class="container-fluid" id="footer">
+        <div class="row" style="text-align: center;">
+           <span id="ic1" class="col-sm-4"><i onclick="load('wallet')" id="icon" class="fa fa-wallet"></i></span>
+           <span id="ic3" class="col-sm-4"><i class="fa-solid fa-cart-shopping" onclick="load('market-place')" id="icon" style="margin-left:30px;margin-right:30px;"></i></span>
+           <span id="ic2" class="col-sm-4"><i onclick="load('account')" id="icon" class="fa fa-user"></i></span>
+        </div>
+    </footer>
+    
+</body>
+<script src="src/js/jquery-3.5.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.5.2/ethers.umd.min.js" type="application/javascript"></script>
+<script src="libs/three.js" type="text/javascript"></script>
+<script src="libs/OrbitControls.js" type="text/javascript"></script>
+<script src="libs/dat.gui.min.js" type="text/javascript"></script>
+<script src="src/js/blockchain.js" type="text/javascript"></script>
+</html>

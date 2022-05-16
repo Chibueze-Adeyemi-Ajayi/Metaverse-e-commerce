@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="src/img/metalogo.png">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />    
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,400italic,500italic,700' rel='stylesheet' type='text/css'>
+    <title>Metaverse</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-default" id="navbar">
+        <div class="container-fluid">
+          <img class="icon" src="src/img/meta-icon.png">
+        </div>
+    </nav>
+ 
+    <div class="container" id="page" style="background: #fff;">
+      <div class="row"><br>
+        <ul style="padding: 8px;">
+          <li>
+              <b>Web3 Connection:</b> Meta is a Web3 based Distributed App (DApp) i.e It's built over the
+              blockchain. To get using this app, it's expected you have an injected Web3 on your device - which 
+              you can follow these steps to get started:<br><br>
+              <ul>
+                  <li><b>Desktop/Laptop: </b><br>
+                    <ul>
+                        <li>Install MetaMask or any trusted equivalent Web3 extension on your browser</li>
+                        <li>While installation is successful, run the extension - import or create your wallet</li>
+                        <li>Open <a href="index.html">Meta</a> on that browser, then click "Get Started"</li>
+                        <li>A little window will appear shortly, kindly accept the process</li>
+                        <li>Once connected, you're free to enjoy the decentralized world</li>
+                    </ul>
+                  </li><br><br>
+                  <li><b>Mobile Devices: </b><br>
+                        <ul>
+                            <li>Visit your app/play store, install Metamask or equivalent Web3 injector you trust</li>
+                            <li>Create your account and wallet, do keep your mnemonics safe</li>
+                            <li>Locate the application menu (side-bar in MetaMask), click on browser/browse</li>
+                            <li>Paste https://meta.jilo.com.ng in the search box, then click enter</li>
+                            <li>A connection process will begin, kindly permit this process</li>
+                            <li>Once done, Hurray !!! ... time to enjoy the decentralized world</li>
+                        </ul>
+                  </li>
+              </ul>
+          </li>
+
+          <button 
+              class="conn-btn"
+              style="width:250px;border-radius:5px; color:#fff;background:#1752f3;
+              display:block;margin:40px auto;" 
+              id="button"
+              onclick="window.location='market.html'"
+          >get started</button>
+
+        </ul>
+      </div>
+    </div>
+
+</body>
+<script src="src/js/jquery-3.5.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.5.2/ethers.umd.min.js" type="application/javascript"></script>
+<script src="src/js/blockchain.js" type="module"></script>
+</html>

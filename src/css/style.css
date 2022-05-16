@@ -1,0 +1,122 @@
+html, body {
+    width:100%; height:100%;
+    overflow: hidden; background-color: #fff;
+    justify-content: center;
+}
+
+#canvas {
+    width:100px; height: 100px;
+    background: #fff; overflow: hidden;
+    position: absolute; top:0px;left: 0px;
+    border:0px;
+}
+
+#logo {
+    width: 220px; height: 75px; 
+}
+
+#logo-text {
+    font-weight: bold; height: 75px;
+    font-size: 60px; margin-left: -30px;
+    margin-top: -50px;
+}
+
+#intro-text {
+    width: 350px; height: 75px;  
+}
+
+#navbar {
+    background-color: #fff; border:0px; width:100%;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, .1);
+    height: 10%; margin-bottom: -10px; border-radius: 0px;
+}
+
+.icon {
+    width: 150px; height: 40px; margin-top: 18px;
+}
+
+#bg-img {
+    width: 500px; height: 280px;
+    justify-self: center; display: block;
+    margin:100px auto;
+}
+
+#page {
+    background:url("../img/metaearth.jpeg"); width: 100%; height: 93%;
+    background-position: right; margin-top: 11px;overflow-x: hidden;
+    overflow-y: auto; 
+}
+
+
+#button:hover {
+    color: #fff; background:#1752f3;
+}
+
+#footer {
+    background-color: rgb(211, 203, 203); margin-top: -70px;
+    width:100%; height: 70px; padding-top: 15px; font-weight:bold;
+    color:#1752f3;
+}
+
+#button {
+    height:50px; border:0px; color:#1752f3;
+    font-weight: bold; font-size: 15px; 
+    background-color: default; text-transform: uppercase;
+}
+
+.board {
+    margin: 60px auto; text-align: center;
+    width:100%; height: 60%;
+    display: block; font-weight: bold; font-size: 35px;
+    color:#1752f3; text-shadow: 1px 1px 1px #fff;
+    overflow-x: hidden; overflow-y: auto;
+}
+
+.loading {
+    float: right;
+}
+
+.loading img {
+    width:200px;height: 70px; 
+}
+
+#loader {
+    display: none;
+}
+
+#icon {
+    font-size: 30px; width: 50px; height: 50px;
+    padding-top:7px; cursor: pointer;
+}
+
+#fragment-card {
+    width:95%; height: 80%; margin:11px auto;
+    background-color: #fff; border: 1px solid #1752f3;
+    border-radius: 3px; overflow-x: hidden; padding-bottom: 20px;
+}
+
+#fragment-header {
+    font-weight: bolder; border-bottom: 4px solid #1752f3; width: 200px;
+    display: block; padding-bottom: 8px; margin-left: 10px; margin-right: 50px;
+}
+
+#grid-fragment {
+    text-align: center;  height: 250px; border:2px solid #1752f3;
+    border-radius: 4px; margin-top: 75px; padding-top: 20px; margin-left: 10px; margin-right: 10px;
+    padding-bottom: 20px;
+}
+
+#grid-fragment #i {
+    font-size: 50px; color: #1752f3;
+    margin-top: 20px; margin-bottom: 20px;
+}
+
+.nft_btn {
+    width:135px; height: 40px; color:#fff;
+    background-color: #1752f3; font-weight: bold;
+    border:0px; margin-top: 5px; 
+}
+
+#nft-img {
+    width: 100px;height:100px;
+}

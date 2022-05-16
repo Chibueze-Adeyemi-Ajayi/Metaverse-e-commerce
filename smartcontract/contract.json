@@ -1,0 +1,15 @@
+{
+    "name": "ERC721 META NFT",
+    "address": "0x34D12EF228f0f65ceC8D1e6f0d772F30a6E502Cb",
+    "provider": "https://rinkeyby.etherscan.io",
+    "network": "rinkeby",
+    "etherscan": "https://rinkeby.etherscan.io/address/0x34d12ef228f0f65cec8d1e6f0d772f30a6e502cb",
+    "uri": "https://meta.jilo.com.ng/nft-assets/",
+    "abi": [
+      "function _baseURI() internal view virtual override returns (string memory)",
+      "function mint(address _to, uint256 _mintAmount, uint256 id) public payable",
+      "function walletOfOwner(address _owner) public view returns (uint256[] memory)",
+      "function tokenURI(uint256 tokenId) public view virtual override returns (string memory)"
+    ],
+    "description": "ERC721 smartcontract developed by Ajayi Chibueze Adeyemi for the Meta project"
+}

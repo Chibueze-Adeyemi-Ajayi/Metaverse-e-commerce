@@ -1,0 +1,23 @@
+{
+  "name": "meta",
+  "version": "1.0.0",
+  "description": "A simple DApp for shopping in the Metaverse",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "keywords": [
+    "Meta",
+    "Metaverse",
+    "nft",
+    "dapp",
+    "web3",
+    "jilo"
+  ],
+  "author": "Chibueze Adeyemi",
+  "license": "MIT",
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "three": "^0.140.2"
+  }
+}

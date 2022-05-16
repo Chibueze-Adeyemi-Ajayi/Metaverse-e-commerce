@@ -1,0 +1,34 @@
+<div id="fragment-card" class="container">
+    <div class="row" style="justify-content: space-evenly;text-align: center;">
+
+        <h3 id="fragment-header" class="col-md-12">Wallet</h3><br>
+
+       <div style="overflow-x: hidden;overflow-y: auto;">
+
+        <div id="grid-fragment" class="col-md-3">
+           <b>Address</b><br>
+           <i id="i" class="fas fa-wallet"></i><br>
+           <span id="address">0x00000000</span> <i id="copy-icon" onclick="copy()" style="color:#1752f3;cursor: pointer;" class="fa fa-copy"></i>
+        </div>
+
+        <div id="grid-fragment" class="col-md-3">
+            <b>Balance</b><br>
+            <i id="i" class="fa-brands fa-ethereum"></i><br>
+            <span id="balance">0.00000000 ETH</span> 
+            
+        </div>
+
+        <div id="grid-fragment" class="col-md-3">
+           <b>Assets</b><br>
+           <i id="i" class="fa-brands fa-artstation"></i><br>
+           <span id="asset">0 NFTs</span></i>
+            
+        </div>
+
+        </div>
+
+    </div>
+</div>
+<script>
+    loadAssets();
+</script>
